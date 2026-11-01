@@ -1,0 +1,59 @@
+# ---------------------------------------------------------------------------
+# Files produced by the tool itself - never versioned.
+# ---------------------------------------------------------------------------
+*.nsm
+_error/
+_reencoded/
+_to_delete/
+sps_pps_profiles/
+profiles.json
+*.reencode.log
+*.manifest.csv
+manifest*.csv
+processed.csv
+
+# Media samples (never commit user media, whatever its kind).
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.flv
+*.asf
+*.wmv
+*.wma
+*.mpg
+*.mpeg
+*.m2ts
+*.mts
+*.jpg
+*.jpeg
+!tests/fixtures/**
+
+# ---------------------------------------------------------------------------
+# Local working copies and pipeline artifacts.
+# ---------------------------------------------------------------------------
+.worktrees/
+.pipeline/
+*.bak
+*.bak-*
+*.orig
+
+# ---------------------------------------------------------------------------
+# Python.
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[co]
+.venv/
+venv/
+.pytest_cache/
+.tox/
+build/
+dist/
+
+# ---------------------------------------------------------------------------
+# Editors and OS.
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

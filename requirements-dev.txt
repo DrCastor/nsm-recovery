@@ -1,0 +1,2 @@
+# Development only: the tool itself uses the Python standard library.
+pytest>=7
